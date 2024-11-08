@@ -236,6 +236,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
         </div>
     </div>
+    <!-- Delete Modal -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Delete Student</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to delete this student?</p>
+                    <form action="" method="POST">
+                        <input type="hidden" name="action" value="delete">
+                        <input type="hidden" name="index" id="deleteIndex">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script>
         function openUpdateModal(index) {
@@ -249,6 +269,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             document.getElementById('age_update').value = student.age;
             document.getElementById('male_update').checked = student.gender === 'Male';
             document.getElementById('female_update').checked = student.gender === 'Female';
+        }
+        function openDeleteModal(index) {
+            document.getElementById('deleteIndex').value = index;
         }
     </script>
 </body>
