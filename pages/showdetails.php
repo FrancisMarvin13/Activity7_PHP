@@ -138,16 +138,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="mb-3">
                             <label for="course" class="form-label">Course</label>
                             <select class="form-control" id="course" name="course" required>
-                                <option value="BSIS">BSIS</option>
-                                <option value="Beed">Beed</option>
-                                <option value="BSTM">BSTM</option>
-                                <option value="BSAIS">BSAIS</option>
-                                <option value="PolSci">PolSci</option>
+                                <option value="default" disabled selected>--Select Course--</option>
+                                <option value="BSIS">BS Information System</option>
+                                <option value="Beed">Bachelor of Elementary Education</option>
+                                <option value="BSTM">BS Tourism Management</option>
+                                <option value="BSAIS">BS Accountng Info. System</option>
+                                <option value="PolSci"> BS Political Science</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label for="year" class="form-label">Year</label>
                             <select class="form-control" id="year" name="year" required>
+                                <option value="default" disabled selected>--Select Year--</option>
                                 <option value="1st Year">1st Year</option>
                                 <option value="2nd Year">2nd Year</option>
                                 <option value="3rd Year">3rd Year</option>
@@ -199,16 +201,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="mb-3">
                             <label for="course_update" class="form-label">Course</label>
                             <select class="form-control" id="course_update" name="course" required>
-                                <option value="BSIS">BSIS</option>
-                                <option value="Beed">Beed</option>
-                                <option value="BSTM">BSTM</option>
-                                <option value="BSAIS">BSAIS</option>
-                                <option value="PolSci">PolSci</option>
+                                <option value="default" disabled selected>--Select Course--</option>
+                                <option value="BSIS">BS Information System</option>
+                                <option value="Beed">Bachelor of Elementary Education</option>
+                                <option value="BSTM">BS Tourism Management</option>
+                                <option value="BSAIS">BS Accountng Info. System</option>
+                                <option value="PolSci"> BS Political Science</option>
                             </select>
                         </div>
                         <div class="mb-3">
                             <label for="year_update" class="form-label">Year</label>
                             <select class="form-control" id="year_update" name="year" required>
+                                <option value="default" disabled selected>--Select Year--</option>
                                 <option value="1st Year">1st Year</option>
                                 <option value="2nd Year">2nd Year</option>
                                 <option value="3rd Year">3rd Year</option>
