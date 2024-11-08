@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="row">
                         <!-- BSIS -->
                         <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card bg-success text-white mb-4"> <!-- Changed to green -->
+                            <div class="card bg-success text-white mb-4"> 
                                 <div class="card-body">BSIS Students: <?php echo $countBSIS; ?></div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <a class="small text-white stretched-link" href="#">View Details</a>
@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <!-- Beed -->
                         <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card bg-primary text-white mb-4"> <!-- Changed to blue -->
+                            <div class="card bg-primary text-white mb-4"> 
                                 <div class="card-body">Beed Students: <?php echo $countBeed; ?></div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <a class="small text-white stretched-link" href="#">View Details</a>
@@ -116,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <!-- BSTM -->
                         <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card bg-dark text-white mb-4"> <!-- Changed to pink -->
+                            <div class="card bg-dark text-white mb-4"> 
                                 <div class="card-body">BSTM Students: <?php echo $countBSTM; ?></div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <a class="small text-white stretched-link" href="#">View Details</a>
@@ -126,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <!-- BSAIS -->
                         <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card bg-danger text-white mb-4"> <!-- Changed to maroon -->
+                            <div class="card bg-danger text-white mb-4"> 
                                 <div class="card-body">BSAIS Students: <?php echo $countBSAIS; ?></div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <a class="small text-white stretched-link" href="#">View Details</a>
@@ -136,7 +136,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
                         <!-- PolSci -->
                         <div class="col-xl-2 col-md-4 col-sm-6">
-                            <div class="card bg-warning text-white mb-4"> <!-- Changed to gold -->
+                            <div class="card bg-warning text-white mb-4"> 
                                 <div class="card-body">PolSci Students: <?php echo $countPolSci; ?></div>
                                 <div class="card-footer d-flex align-items-center justify-content-between">
                                     <a class="small text-white stretched-link" href="#">View Details</a>
